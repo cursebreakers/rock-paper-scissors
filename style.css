@@ -5,4 +5,57 @@
 }
 
 .base {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    align-items: center;
+    margin: 0px;
+    border-color: #fcfcfc;
+
+}
+
+.headbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border-color: #fcfcfc;
+}
+
+.heading {
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 32px;
+}
+
+
+.tagline {
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 24px;
+}
+
+.board {
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 18px;
+    padding: 8px;
+    height: 28px;
+}
+
+.gamebar {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111111;
+    border-color: #fcfcfc;
+}
+
+.btn {
+    padding: 8px;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 8px;
+    border-radius: 5px;
 }
