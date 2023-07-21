@@ -14,11 +14,12 @@ if (userIn === computerChoice) {
     } else if (
     (userIn === 'rock' && computerChoice === 'scissors') ||
     (userIn === 'paper' && computerChoice === 'rock') ||
-    (userIn === 'scissors' && computerChoice === 'paper')
+    (userIn === 'scissors' && computerChoice === 'paper') ||
+    (userIn === 'milk' && computerChoice === 'paper')
     ) {
     return "player wins with " + userIn;
     } else {
-    return "computer loses to " + computerChoice;
+    return "player loses with " + userIn;
     }
 }
 //Function to start game 
@@ -40,11 +41,11 @@ function game() {
     }
 //Determine final score
     if (userScore > compScore) {
-        console.log("player wins");
+        console.log("player wins match");
         } else if (userScore < compScore) {
-        console.log("computer wins");
+        console.log("computer wins match");
         } else {
-        console.log("player ties with computer");
+        console.log("player ties match with computer");
         }
 }
 
